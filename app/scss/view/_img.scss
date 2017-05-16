@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+$coffee-fill: rgba(123, 85, 68, 0.8);
+
+.coffee-shape{
+    stroke: none;
+    fill: $coffee-fill;
+}
+
+#coffee {
+    position: relative;
+}
+
+#coffee-svg {
+    position: absolute;
+    top: 0px;
+}
+
+.mug-img {
+    width: 300px;
+    height: 276px;
+    background-size: 300px 276px;
+    background-repeat:no-repeat;
+    background-image: url(../../static/img/mug.png);
+}

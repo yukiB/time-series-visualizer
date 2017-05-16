@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<title>JT</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.5/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='scripts/js/vendors.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/js/bundle.js') }}"></script>
+  </head>
+  <body>
+    {% block body %}{% endblock %}
+  </body>
+</html>

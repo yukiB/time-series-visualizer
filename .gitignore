@@ -1,0 +1,18 @@
+*.log
+*.DS_Store
+
+# Python
+.python-version
+*.pyc
+/build
+/dist
+*.egg-info
+.eggs
+
+# template
+/resources/data/*
+/viewer/node_modules/*
+/static/scripts/js/*
+/static/css/*
+/node_modules/*
+/resources/config/*.json
