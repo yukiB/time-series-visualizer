@@ -1,4 +1,4 @@
-# realtime-visualizer
+# time-series-visualizer
 
 Visualize time series data using python flask and javascript
 
